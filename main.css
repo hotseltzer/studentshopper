@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+
+#container{
+    width:960px;
+    margin:auto;
+}
+
+body {
+    background-image: url(images/background.jpeg);
+    color: #f2d9e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    margin:30px 0px;
+    color: #b3d9ff;
+    
+}
+
+.banner{
+    text-align:center;
+    color:white;
+    border-radius: 20px;
+    font-size: 60px;
+    font-family: 'Philosopher', sans-serif;
+    background-image: url(https://pixabay.com/static/uploads/photo/2016/03/09/23/55/mochilas-1247666_960_720.jpg);
+}
+
+.menu ul{
+    display: table;
+    width:100%;
+    margin: 30px 0px;
+    /*margin 0px;*/
+    padding: 0px;
+}
+
+.menu ul li{
+    display: table-cell;
+    text-align:center;
+    width:25%;
+    border: solid 4px #f2d9e6 ;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.menu a:hover{
+    font-size: 40px;
+}
+
+.maps{
+    width:800px;
+    margin:auto;
+}
+
+.maps ul{
+    width:100%;
+}
+
+.maps ul li{
+    text-align:center;
+}
+
+.maps a:visited{
+    border:solid orange 4px;
+}
